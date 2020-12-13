@@ -1,0 +1,33 @@
+.button {
+  //   width: 74px;
+  text-align: center;
+  cursor: pointer;
+  //   height: 38px;
+  color: #7ecb20;
+  background-color: white;
+  border: none;
+  outline: none;
+
+  &--green {
+    background-color: #7ecb20;
+    color: white;
+    padding: 5px 35px;
+  }
+
+  &--large {
+    font-size: 1.5rem;
+    padding: 5px 45px;
+  }
+
+  &--border1 {
+    border-radius: 19px;
+  }
+
+  &--border2 {
+    border-radius: 27px;
+  }
+
+  &--border3 {
+    border-radius: 5px;
+  }
+}

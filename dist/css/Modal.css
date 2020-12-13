@@ -1,0 +1,132 @@
+.modal {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  right: 30%;
+  height: 70%;
+  width: 40%;
+  z-index: 10;
+  border: 1px solid lightgray;
+  border-radius: 15px;
+}
+
+.modal__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 50px 150px;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+
+.modal__header {
+  text-align: center;
+  border-bottom: 3px solid #7ecb20;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.modal__header h2 {
+  color: #7ecb20;
+}
+
+.modal__inputs {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.modal h1 {
+  margin-bottom: 0;
+  font-size: 33px;
+}
+
+.modal p {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.modal__input {
+  margin-bottom: 20px;
+  border: 1px solid #707070;
+  opacity: 0.57;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.modal__input--round {
+  border-radius: 30px;
+  padding: 15px;
+}
+
+.modal__input:focus {
+  outline: none;
+}
+
+.modal a {
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.modal a:active, .modal a:hover {
+  color: black;
+}
+
+.modal__arrow {
+  text-align: left;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.modal__success {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.modal .otp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 150px;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 100%;
+}
+/*# sourceMappingURL=Modal.css.map */

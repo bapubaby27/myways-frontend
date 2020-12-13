@@ -1,0 +1,75 @@
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 99px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  -webkit-box-shadow: 0px 3px 6px #0000000f;
+          box-shadow: 0px 3px 6px #0000000f;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.navbar img {
+  width: 66px;
+  height: 66px;
+}
+
+.navbar ul {
+  margin-bottom: 0 !important;
+}
+
+.navbar__items {
+  margin-left: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.navbar__item {
+  padding: 0 30px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar__item img {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar__dropdown {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ant-dropdown-menu-item {
+  padding: 13px;
+  width: 250px;
+  border-bottom: 1px solid #4b494926;
+}
+
+.ant-dropdown-menu-item:last-child {
+  border-bottom: none;
+}
+/*# sourceMappingURL=Navbar.css.map */
