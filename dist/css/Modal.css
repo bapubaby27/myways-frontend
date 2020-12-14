@@ -5,9 +5,10 @@
   right: 30%;
   height: 70%;
   width: 40%;
-  z-index: 10;
+  z-index: 500;
   border: 1px solid lightgray;
   border-radius: 15px;
+  background-color: white;
 }
 
 .modal__form {
@@ -18,7 +19,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 50px 150px;
+  padding: 20px 150px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -93,6 +94,15 @@
   cursor: pointer;
 }
 
+.modal__close {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 .modal__success {
   text-align: center;
   display: -webkit-box;
@@ -106,6 +116,23 @@
       -ms-flex-pack: center;
           justify-content: center;
   width: 100%;
+  height: 100%;
+}
+
+.modal__loader {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100%;
 }
 
